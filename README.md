@@ -8,13 +8,13 @@ The app lets you upload a PDF, ask questions about its content, and receive inte
 
 ## 🚀 Features
 
-- 🧾 **PDF Document Loader** using `PyPDFLoader`
-- 🧠 **Semantic Search** with Hugging Face MiniLM embeddings
-- 🔍 **Vector Search** using FAISS
-- 💬 **LLM Response Generation** via Groq (`llama3-70b-8192`)
-- 🧪 **Prompt Template with Context Injection**
-- 📄 **Document Viewer** for source context
-- ⏱️ **Response Time Display**
+-    **PDF Document Loader** using `PyPDFLoader`
+-    **Semantic Search** with Hugging Face MiniLM embeddings
+-    **Vector Search** using FAISS
+-    **LLM Response Generation** via Groq (`llama3-70b-8192`)
+-    **Prompt Template with Context Injection**
+-    **Document Viewer** for source context
+- ⏱  **Response Time Display**
 
 ---
 
@@ -28,16 +28,23 @@ cd rag-app-groq
 ```
 
 ### 2. Create and Activate Virtual Environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 ### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Set Up Environment Variables
+
 Create a .env file in the root directory and add your Groq API key:
+```bash
 
 GROQ_API_KEY=your_groq_api_key_here
+```
 
 ### Technologies Used
 Streamlit
